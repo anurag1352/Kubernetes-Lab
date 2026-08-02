@@ -1,0 +1,17 @@
+kind: Service
+apiVersion: v1
+metadata: 
+  name: nginx-service
+  namespace: nginx
+  labels:
+    app: nginx
+spec:
+  selector:
+    app: nginx  
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
+  type: ClusterIP
+
+#kubectl port-forward service/nginx-service 8080:80 --address 0.0.0.0 -n nginx
