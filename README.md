@@ -573,6 +573,6 @@ After completing this lab, you will be able to:
 
 ## Author
 
-**Anurag Sharma**
+**Anurag**
 
 DevOps | Cloud | Kubernetes | AWS | SRE
